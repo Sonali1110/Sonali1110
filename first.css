@@ -1,0 +1,40 @@
+.ranhead{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: bisque;
+}
+.raninfo{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:brown;
+    height:200px;
+    width: 500px;
+    position: relative;
+    left:500px
+
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: bisque;
+    width:
+
+}
+.gibinfo{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:cornflowerblue;
+    height:200px;
+    width: 500px;
+    position: relative;
+    left:500px
+    
+}
+footer{
+    position: absolute;
+    top: 800px;
+    width: 900px;
+    background-color: aquamarine;
+    color: blueviolet;
+
+}

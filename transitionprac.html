@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            transition: width 6s;
+            /* transition-delay: 3s;
+            transition-duration: 2s;
+            transition-property: width; */
+        }
+        div:hover
+        {
+            width: 400px;
+        }
+        
+        .d1
+        {
+            background-color: crimson;    
+            transition-timing-function: ease-out;
+        }
+        #d2
+        {
+            background-color: cornflowerblue;
+            transition-timing-function: ease-in;
+        }
+        .d3
+        {
+            background-color: coral;
+            transition-timing-function: ease-in-out;
+        } 
+        #d4
+        {
+            background-color:darkslateblue;
+            transition-timing-function: ease-in;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"></div>
+    <div id="d2"></div>
+    <div class="d3"></div>
+    <div id="d4"></div>
+</body>
+</html>
